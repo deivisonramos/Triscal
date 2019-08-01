@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Deivi\\Desktop\\icatu-master\\IcatuWebApi\\IcatuWebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj",
+        "projectName": "Triscal.Entidade",
+        "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj": {
+                "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Business\\Triscal.Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Business\\Triscal.Negocio.csproj",
+        "projectName": "Triscal.Negocio",
+        "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Business\\Triscal.Negocio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj": {
+                "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj"
+              },
+              "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Repository\\Triscal.Repositorio.csproj": {
+                "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Repository\\Triscal.Repositorio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj",
+        "projectName": "Icatu.Integration.Others",
+        "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Repository\\Triscal.Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Repository\\Triscal.Repositorio.csproj",
+        "projectName": "Triscal.Repositorio",
+        "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Repository\\Triscal.Repositorio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj": {
+                "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.BusinessEntities\\Triscal.Entidade.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Deivi\\Desktop\\icatu-master\\IcatuWebApi\\IcatuWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deivi\\Desktop\\icatu-master\\IcatuWebApi\\IcatuWebApi.csproj",
+        "projectName": "IcatuWebApi",
+        "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\IcatuWebApi\\IcatuWebApi.csproj",
+        "packagesPath": "C:\\Users\\Deivi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\IcatuWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Business\\Triscal.Negocio.csproj": {
+                "projectPath": "C:\\Users\\Deivi\\Desktop\\icatu-master\\Icatu.Integration.Business\\Triscal.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
